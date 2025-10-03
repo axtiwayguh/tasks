@@ -27,9 +27,6 @@ for (let i = 1; i <= 10; i++) {
     console.log(s);
 }
 
-
-
-
 let m = parseInt(prompt("Введите число:"));
 let sum = 0;
 let i = 1;
@@ -54,8 +51,6 @@ for (let i = 1; i <= 100; i++) {
     }
 }
 
- 
-
 let count = parseInt(prompt("Введите количество чисел Фибоначчи:"));
 let a = 0, b = 1;
 
@@ -68,8 +63,6 @@ for (let i = 3; i <= count; i++) {
     a = b;
     b = next;
 }
-
- 
 
 let secret = Math.floor(Math.random() * 100) + 1; // число от 1 до 100
 let guess;
